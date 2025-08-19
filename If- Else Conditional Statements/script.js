@@ -65,7 +65,7 @@ if (age < 12) {
 let secretNumber = parseInt(prompt("Enter secret number"));
 let guess = 9;
 
-if (guess == secretNumber) {
+if (guess === secretNumber) {
     console.log("Well done. You guessed right ✌🎉🎊");
 } else if (secretNumber > guess) {
     console.log("Try a lower number")
