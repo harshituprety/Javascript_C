@@ -59,3 +59,16 @@ if (age < 12) {
 } else {
     console.log("Your Ticket price is " + rupeeSymbol + 15);
 }
+
+// Write a simple number guessing game. Provide a secret number and a guess. Based on those numbers give players clues if their guess is higher, lower or correct.
+
+let secretNumber = parseInt(prompt("Enter secret number"));
+let guess = 9;
+
+if (guess == secretNumber) {
+    console.log("Well done. You guessed right ✌🎉🎊");
+} else if (secretNumber > guess) {
+    console.log("Try a lower number")
+} else {
+    console.log("Try a Higher Number");
+}
