@@ -72,3 +72,13 @@ if (guess === secretNumber) {
 } else {
     console.log("Try a Higher Number");
 }
+
+// WAP to take string "Hello" from the user and compare it if "Hello" is equal to "Hello" then print "Hello World"
+
+let a = prompt("Enter a string");
+
+if ("Hello" === a) {
+    console.log("Hello World");
+} else {
+    console.log("Please Try again");
+}
