@@ -82,3 +82,22 @@ if ("Hello" === a) {
 } else {
     console.log("Please Try again");
 }
+
+// WAP to make student grade finder Take inputs of 5 subjects then print the grade       according to percentage
+let studentPercent = parseInt(prompt("Enter your Percentage"));
+
+if (studentPercent <= 100 && studentPercent > 90) {
+    console.log("A+ grade");
+} else if (studentPercent <= 90 && studentPercent > 80) {
+    console.log("A grade");
+} else if (studentPercent <= 80 && studentPercent > 70) {
+    console.log("B+ grade");
+} else if (studentPercent <= 70 && studentPercent > 60) {
+    console.log("B grade");
+} else if (studentPercent <= 60 && studentPercent > 50) {
+    console.log("C grade");
+} else if (studentPercent <= 50 && studentPercent > 40) {
+    console.log("D grade");
+} else {
+    console.log("Work hard Next time");
+}
