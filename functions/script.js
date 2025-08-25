@@ -7,3 +7,12 @@ function minutesToHours() {
 }
 
 console.log(minutesToHours());
+
+// Write a function named averageOf4Numbers that receives 4 numbers as parameters and returns the mathematical average between them.
+
+function averageOf4Numbers(nr1, nr2, nr3, nr4) {
+    let average = (nr1 + nr2 + nr3 + nr4) / 4;
+    return average;
+}
+
+console.log(averageOf4Numbers(60, 30, 20, 40));
