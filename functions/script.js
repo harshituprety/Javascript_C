@@ -16,3 +16,13 @@ function averageOf4Numbers(nr1, nr2, nr3, nr4) {
 }
 
 console.log(averageOf4Numbers(60, 30, 20, 40));
+
+// Write a function named concat3 that receives 3 strings as parameters (string1, string2, string3) and an additional string named separator.
+// The function should concatenate the three strings using the provided separator and return the result.
+
+function concat3(string1, string2, string3, separator) {
+    let mix = (string1 + separator + string2 + separator + string3);
+    return mix;
+}
+
+console.log(concat3("HTML", "CSS", "Javascript", ","));
