@@ -2,6 +2,7 @@
 
 while (condition) {
   // code to be executed;
+  // increment or decrement
 }
 
 
