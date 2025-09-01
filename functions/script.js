@@ -26,3 +26,15 @@ function concat3(string1, string2, string3, separator) {
 }
 
 console.log(concat3("HTML", "CSS", "Javascript", ","));
+
+
+
+
+function fusion() {
+  console.log("the name of variable is " + name);
+  console.log("the age of variable is " + age);
+  var name = "Red John";
+  let age = 993;
+}
+
+fusion();
