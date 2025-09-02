@@ -8,3 +8,7 @@ link.href = "https://www.youtube.com/";
 link.target = "_blank";
 
 document.body.append(link);
+
+function change() {
+  document.getElementById("check").textContent = "Clicked!";
+}
