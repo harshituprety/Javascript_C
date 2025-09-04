@@ -52,3 +52,27 @@ symbol
 
 console.log(typeof null);
 console.log(typeof undefined);
+
+
+
+
+
+let firstName = "Harshit";
+let job = "graphics designer";
+let birthYear = "1996";
+let year = 2040;
+
+let harshit =
+  "I'am " +
+  firstName +
+  ", a" +
+  (year - birthYear) +
+  " years old " +
+  "job" +
+  "!";
+console.log(harshit);
+
+harshit = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(harshit);
+
+console.log(`Just a regular string....`);
