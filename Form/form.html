@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+  <h1>Love to hear from you, <br>Get in touch👋</h1><br>
+  <form action="" onsubmit="formdata()">
+
+    <label for="name">Your name</label><br>
+    <input type="text" id="name" placeholder="Enter your name......" required><br><br>
+
+    <label for="mail">Your E-mail</label><br>
+    <input type="email" name="fmail" placeholder="Enter your e-mail......" id="mail" required><br><br>
+
+    <label for="inter">What you are interested</label><br>
+    <select id="inter" name="finter" required>
+      <option value="Leisure">Hobbies & Leisure</option>
+      <option value="Science">Technology & Science</option>
+      <option value="Arts">Art & Culture</option>
+      <option value="Sports">Sports & Fitness</option>
+      <option value="Travel">Travel & Adventure</option>
+      <option value="Self-help">Personal Development</option>
+      <option value="Business" selected>Business & Finance</option>
+    </select><br><br>
+
+    <label for="numb">Your Contact number</label><br>
+    <input type="number" id="numb" placeholder="Enter your contact number....." required minlength="9"
+      maxlength="10"><br><br>
+
+    <label for="message">Message</label><br>
+    <textarea name="" id="message" rows="6" cols="60" placeholder="Let's know your project about"
+      required></textarea><br><br>
+
+    <input type="submit" id="sub">
+
+  </form>
+
+  <script src="form.js"></script>
+</body>
+
+</html>
