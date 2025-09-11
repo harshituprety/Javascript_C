@@ -1,8 +1,10 @@
-let a = document.querySelector("#name");
-let b = document.querySelector("#number");
-// let c = 0;
 function formdata() {
+  let a = document.querySelector("#name");
+  let b = document.querySelector("#number");
+
   if (a.value === "" && b.value === "") {
+    a.focus();
+    b.focus();
     alert("Please enter a value");
     return false;
     // c == 1;
@@ -12,3 +14,4 @@ function formdata() {
     // c == 0;
   }
 }
+
