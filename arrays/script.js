@@ -49,3 +49,47 @@ for (let val of items) {
   i++;
 }
 
+/ Return the largest number in an array
+
+let a = [23, 11, 35, 94, 99];
+let largest = a[0];
+
+for (let i = 0; i < a.length; i++) {
+  if (a[i] > largest) {
+    largest = a[i];
+  }
+}
+console.log(largest);
+
+a.forEach((e) => {
+  if (e > largest) {
+    largest = e;
+  }
+});
+
+console.log(largest);
+
+// Return a new array containing only the even numbers from the input array.
+
+let array = [22, 85, 43, 92, 99, 21, 87, 47, 34, 33];
+
+let even = array.filter((a) => a % 2 == 0);
+
+console.log(even);
+
+// Return the last element in an array.
+let arr = [3, 21, 8, 383, 32];
+
+let b = arr.pop();
+console.log(b);
+
+// Return a new array where every number is multiplied by 2.
+
+let r = [3, 2, 45, 883, 3];
+let n = [];
+r.forEach((e) => {
+  n.push(e * 2);
+});
+
+console.log(n);
+
