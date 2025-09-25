@@ -93,3 +93,40 @@ r.forEach((e) => {
 
 console.log(n);
 
+//* Array methods
+
+let foodItems = ["banana", "apples", "guavas", "pineapples"];
+
+foodItems.push("grapes");
+console.log(foodItems);
+
+let deletedItems = foodItems.pop();
+
+console.log(deletedItems);
+console.log(foodItems.toString());
+
+let marks = [93, 84, 89, 23, 24];
+
+console.log(marks.toString());
+
+let marvelHeroes = ["sunspot", "wolverine", "magneto", "blade"];
+let dcHeroes = ["batman", "metamorpho", "shazam", "flash"];
+let indianHeroes = ["doga", "nagraj", "tausi", "dhruva"];
+
+let heroes = marvelHeroes.concat(dcHeroes, indianHeroes);
+console.log(heroes);
+
+marvelHeroes.unshift("vision");
+console.log(marvelHeroes);
+
+let val = marvelHeroes.shift();
+console.log("deleted ", val);
+
+console.log(marvelHeroes.slice(1, 3));
+//? slice(startIdx, endIdx);
+
+let a = marvelHeroes.splice(1, 2, "mystique");
+console.log(a);
+
+let num = [1, 2, 3, 4, 5, 6];
+num.splice(0, 2, 101, 102);
