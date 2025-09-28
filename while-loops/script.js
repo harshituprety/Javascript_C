@@ -42,3 +42,14 @@ else {
 }
 
 console.log(fact);
+
+// Write a program to print 'try again' until the user enters the correct number
+let n = 34;
+let i;
+
+while (i != n) {
+  console.log("Try again");
+  i = parseInt(prompt("Enter correct number"));
+}
+
+console.log("You guessed it right");
