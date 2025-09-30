@@ -130,3 +130,12 @@ console.log(a);
 
 let num = [1, 2, 3, 4, 5, 6];
 num.splice(0, 2, 101, 102);
+
+//Write a function squareNumbers that uses map() to square each number in an array.
+
+let arr = [1, 2, 3, 4];
+let a = arr.map((value) => {
+  // console.log(value);
+  return value ** 2;
+});
+console.log(a);
