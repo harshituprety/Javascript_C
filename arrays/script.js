@@ -139,3 +139,9 @@ let a = arr.map((value) => {
   return value ** 2;
 });
 console.log(a);
+
+// Write a function that takes an array as input and returns a new array with all duplicate elements removed. Ensure that the order of the elements in the output array remains the same as in the original array.
+
+let n = [1, 2, 4, 5, 2, 3, 4];
+let duplicate = [...new Set(n)];
+console.log(duplicate);
