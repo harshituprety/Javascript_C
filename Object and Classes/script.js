@@ -40,3 +40,22 @@ function extractNames(arr) {
 }
 let data = extractNames(names);
 console.log(data);
+
+// WAP to create a word meaning dictionary of 5 words
+
+let dict = {
+  circadian: "having or relating to 24-hour biological cycles",
+  parliamentary:
+    "relating to a country's lawmaking body (parliament) or its members",
+  raptor: "a carnivorous bird that hunts other animals",
+  resilient: "recovering readily from adversity, depression, or the like",
+  shantytown: "a city district with large numbers of makeshift dwellings",
+};
+console.log(dict.raptor);
+
+const obj = { name: "girish", age: 32, contact: 7238476311 };
+// obj = { name: "Illinos", country: "USA", state: "Texas" };
+// console.log(obj);
+obj["name"] = "jasmine";
+
+console.log(obj);
