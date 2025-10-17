@@ -64,4 +64,32 @@ let value = "Uttarakhand Tourism";
 
 console.log(value.replace("Uttarakhand", "Madhya Pradesh"));
 
+/* What will the following print in the javascript?
+
+console.log("har\"".length)
+*/
+
+console.log('har"'.length);
+// \" :- Escape sequence character
+
+// The includes() method of String values performs a case-sensitive search to determine whether a given string may be found within this string, returning true or false as appropriate.
+// The includes() method is case sensitive.
+const sentence = "The quick brown fox jumps over the lazy dog.";
+
+const word = "fox";
+
+console.log(sentence.includes(word));
+
+console.log(
+  `The word "${word}" ${
+    sentence.includes(word) ? "is" : "is not"
+  } in the sentence`
+);
+
+let team = "Royal Challengers Bengaluru".includes("royal");
+console.log(team);
+
+team = "Royal Challengers Bengaluru".toLowerCase().includes("royal");
+console.log(team);
+
 
