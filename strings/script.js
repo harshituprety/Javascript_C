@@ -93,3 +93,28 @@ team = "Royal Challengers Bengaluru".toLowerCase().includes("royal");
 console.log(team);
 
 
+// This method lets you determine whether or not a string begins with another string. This method is case-sensitive.
+
+sentence = "The sun is shining, and the birds are singing.";
+
+console.log(sentence.startsWith("the sun"));
+console.log(sentence.startsWith("The sun"));
+console.log(sentence.startsWith("shining", 11));
+
+// The endsWith() method of String values determines whether a string ends with the characters of this string, returning true or false as appropriate.
+
+const str1 = "Cats are the best!";
+console.log(str1.endsWith("Lions"));
+console.log(str1.endsWith("best!"));
+
+// Extract the amount out of this String
+
+// ("Please give Rs 300");
+
+let str = "Please give Rs 300";
+
+console.log(str.substring(12, 18));
+
+let change = "Goodnight to everyone in USA";
+change[4] = "T";
+console.log(change);
