@@ -145,3 +145,11 @@ console.log(a);
 let n = [1, 2, 4, 5, 2, 3, 4];
 let duplicate = [...new Set(n)];
 console.log(duplicate);
+
+// Create an array of numbers and take input from the user to add numbers to this array
+
+let arr = [1, 2, 3, 4, 5];
+
+let user = parseInt(prompt("Enter a number"));
+user = arr.push(user);
+console.log(arr);
