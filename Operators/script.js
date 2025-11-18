@@ -67,5 +67,11 @@ console.log("cond1 && cond2 = ", a < b && a === 6);
 console.log("cond1 || cond2 = ", a < b || a === 6);
 console.log("cond1 != cond2 = ", a < b != a === 6);
 
+let a;
+let b;
+a = 1;
+b = (a++,a++,a => a + 1)(a);
+console.log(b) // 4
+
 
 
