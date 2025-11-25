@@ -214,3 +214,22 @@ const twoSum = function(nums, target) {
         }
     }
 };
+
+let arr = [1, 3, 5, 7, 9, 11, 13, 15, 17];
+
+let [a, , b, , ...rest] = arr;
+
+console.log(a, b, rest);
+
+let { a, b } = { a: 1, b: 4 };
+console.log(a, b);
+
+let arr1 = [3, 6, 9];
+console.log({ ...arr1 });
+
+const num = (v1, v2, v3) => {
+  return v1 + v2 + v3;
+};
+
+console.log(num(...arr1));
+
