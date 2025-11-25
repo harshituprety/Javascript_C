@@ -59,3 +59,11 @@ const obj = { name: "girish", age: 32, contact: 7238476311 };
 obj["name"] = "jasmine";
 
 console.log(obj);
+
+let obj1 = {
+  name: "Jignesh",
+  age: 25,
+  city: "baroda",
+};
+
+console.log({ ...obj1, name: "Mahesh", age: 27, city: "jamshedpur" });
